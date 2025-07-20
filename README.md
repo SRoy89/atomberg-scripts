@@ -8,4 +8,5 @@ All documentations can be found here: https://developer.atomberg-iot.com
 This give you your access token, which you need to use commands.
 
 ### Atomberg Fan AFK.bat
-This one gets new access token, turns fan off, waits for user activity then turns fan on. Useful if you go afk.
+Gets new access token, turns fan off, waits for user activity then turns fan on. Useful if you go afk.
+Only issue with this is, it gets new access token everytime which kinda wastes api calls, but there's 100/day limit, and I don't dont go afk more than 5 times a day.
